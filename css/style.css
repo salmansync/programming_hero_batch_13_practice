@@ -1,0 +1,61 @@
+/* Common CSS Start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+ul,
+ol,
+a,
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+/* Header Section Start */
+#headerPart {
+  padding: 20px 0;
+  background: #ECEDEF;
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+.headerFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu ul {
+  display: flex;
+  column-gap: 30px;
+}
+
+.menu ul a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #242B36;
+}
+
+.headerBtn a {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 18px;
+  color: #242B36;
+  border: 1px solid #417D6E;
+  border-radius: 500px;
+  margin-right: 10px;
+  transition: all linear 0.4s;
+}
+
+.headerBtn a:hover {
+  color: #fff;
+  background: #007456;
+}
+
+/* Header Section End */
